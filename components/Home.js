@@ -31,7 +31,6 @@ function Home() {
 
   const router = useRouter();
 
-  const fetch = require("node-fetch");
   let newArticless;
 
   let connectedText = <p></p>;

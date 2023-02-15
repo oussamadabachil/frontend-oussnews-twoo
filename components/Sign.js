@@ -146,7 +146,7 @@ function Sign() {
 
   const subscribe = () => {
     if (checkUsername && checkEmail && checkPassword && checkPassword2) {
-      fetch("http://localhost:3000/users/signup", {
+      fetch("https://backend-oussnews-twoo.vercel.app/users/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
